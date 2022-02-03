@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    width: 992px;
+}
+.page_body{
+    display: flex;
+}
+.content{
+    width: 100%;
+}
+.wallpaper{
+    height: 125px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wallpaper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.avaInformation {
+    display: flex;
+}
+.ava{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+.ava img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.information ul {
+    padding: 0;
+}
+.information h2{
+    margin-bottom: 10px;
+}
