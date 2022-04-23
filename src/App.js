@@ -10,10 +10,8 @@ function App(props) {
   return (
     <div className="container">
       <Header />
-
       <div className='page_body'>
         <Menu />
-
         <div className='content'>
           <Routes>
             <Route path="/profile/*"
@@ -34,9 +32,7 @@ function App(props) {
             />
           </Routes>
         </div>
-
       </div>
-
     </div>
   );
 }
